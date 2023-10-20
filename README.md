@@ -1,7 +1,7 @@
 # ECINN
 
 A  repository for **Discovering Electrochemistry with an Electrochemistry-Informed Neural Network (ECINN)**.  
-
+![Figure 1](Figure_1_Resized.png)
 # Requirements
 Python 3.8 and above is required to rum the progrmas. The neural network was developed and tested with TensorFlow 2.4 and should be compatble with higher versions. Packagaes like Pandas, Numpy and Matplotlib are required. To visualize the structure of ECINN, pydot is required. 
 
