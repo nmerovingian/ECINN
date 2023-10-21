@@ -21,5 +21,5 @@ The original experimental data can be located in each .xlsx sheet in each folder
 Please report any issues/bugs of the code in the discussion forum of the repository or contact the corresponding author of the paper
 
 
-
+[![DOI](https://zenodo.org/badge/707504736.svg)](https://zenodo.org/doi/10.5281/zenodo.10029272)
 
