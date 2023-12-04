@@ -147,6 +147,8 @@ def plotBest(resultsFileName,commands,best_index):
         df_exp_sampled = flux_sampling(time_array,df_exp,maxT)
 
         MSE =mean_squared_error(df_exp_sampled,df_FD_sampled)
+
+
         ax.plot(df_exp.iloc[:,0],df_exp.iloc[:,1],lw=2,label=f'$\\nu=${scan_rates[i]:.2f} V/s, MSE={MSE:.3f}',color=tuple(colors[i]))
         ax.plot(df_FD.iloc[:,0],df_FD.iloc[:,1],ls='--',lw=2,color=tuple(colors[i]))
 
@@ -161,13 +163,13 @@ def plotBest(resultsFileName,commands,best_index):
 if __name__ == "__main__":
 
     parameterFileName = FD_BruteForce_Parameters()
-    """
+    
     commands = multiprocessingFD(parameterFileName)
     resultsFileName,best_index = evaluate(parameterFileName,commands)
     print(best_index)
     print(commands[best_index])
     plotBest(resultsFileName,commands,best_index)
-    """
+    
     
     
 
