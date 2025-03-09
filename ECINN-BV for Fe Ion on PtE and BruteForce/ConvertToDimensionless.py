@@ -31,9 +31,9 @@ F = 96485 # C/mol
 
 A = np.pi* r_e**2 # Area of electrode, m^2 
 
-DA = 4.63e-10
+DA = 4.63e-10 #m^2 s^-1
 
-Dref = 1e-9
+Dref = 1e-9 #m^2 s^-1
 
 ERef = 0.4336 # Formal Potential of Fe2+/Fe3+ couple
 
